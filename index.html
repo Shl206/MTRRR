@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MTR</title>
+    <meta name="description" content="A classic company or blog layout with a sidebar. Built with Pico CSS.">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" href="/Mtr-Minisite/Ch/信用卡支付/Langing Page/assets/HK_MTR_logo.svg.png" width="100%" height="100%" >
+    <!-- Pico.css -->
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+    <!-- Custom styles for this example -->
+    <link rel="stylesheet" href="custom.css">
+  </head>
+
+  <body>
+
+    <!-- Hero -->
+    <div class="hero">
+      <nav class="container-fluid">
+        <div class="empty">empty</div>
+          <div class="text-center"><a>教學指南</a></div>
+      </nav>
+      <header class="container">
+        <div class="company">
+        <hgroup div class="center">
+          <div class="card1">
+            <img src="./assets/Credit Pay1.png" onclick="left()" class="img-gone" alt="card" id="left" >
+          </div>
+          <div class="card2">
+            <img src="./assets/Elc Pay1.png" onclick="right()"  alt="card2 back" id="right">
+          </div>
+        </div>
+      </div>
+        </hgroup>
+      </div>
+      </header>
+    </div><!-- ./ Hero -->
+
+    <!-- Main -->
+    <main class="container">
+      <main class="container" id="container">
+        <section>
+          <div class="actionBtns" id="actionBtns">
+            <div id="movela"></div>
+            <div id="movela2"></div>
+            <a onclick="left2()" href="#" class="left2" role="button" id="changecolor">上載消費收據</a>
+            <a onclick="right2()" href="#" class="right2" role="button" id="changecolor2">上載電子貨幣存款存根</a>
+          </div>
+          <div class="actionBtns2" id="actionBtns2">
+            <div id="movela3"></div>
+            <div id="movela4"></div>
+            <a onclick="left3()" href="#" class="left2" role="button" id="changecolor3">上載消費收據</a>
+            <a onclick="right3()" href="#" class="right2" role="button" id="changecolor4">上載電子貨幣存款存根</a>
+          </div>
+        </section>
+            <p id="test1">請拍下或上載收據，並請確保照片上能清晰顯示消費收據編號、商鋪地址、商戶名稱、交易日期、消費金額及購買項目資料。</p>
+            <p id="test2" style="color: yellow;">＊恕不接受遮蓋收據上的電子貨幣付款資料，如八達通或信用卡號碼。</p>
+            <p id="test3" style="color: yellow;">* 任何以參與商戶或第三方發行的儲值卡、優惠券或現金券支付部分金額的合資格消費交易，會在扣除該等面值後，以實際支付金額計算獎分。</p>
+            <figure>
+              <img class="Recept" src="assets/Recept1.png" alt="recept" id="pic">
+            </figure>
+           
+          </section>
+        
+      </main>
+    </main><!-- ./ Main -->
+    <script src="main.js"></script>
+  </body>
+
+</html>

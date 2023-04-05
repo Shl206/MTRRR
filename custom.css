@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* Global CSS variables */
+:root {
+  --spacing-company: 3rem;
+  --font-weight: 400;
+  --border-radius: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #4e86ad;
+}
+
+/* Typography */
+h2,
+h3,
+hgroup > :last-child {
+  font-weight: 400;
+}
+
+p{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+small {
+  color: var(--muted-color);
+}
+
+/* Header */
+.center-text{
+  margin-left: -98px;
+}
+.hero {
+  background-color: #fff;
+  background-position: center;
+  background-size: cover;
+  border-bottom-right-radius: 10% 10%;
+  border-bottom-left-radius: 10% 10%;
+}
+.container-fluid{
+  text-align: center;
+  display: block;
+}
+.empty{
+  color: #fff;
+}
+
+.MTR{
+  margin-left: -17px;
+}
+.two{
+  display: inline-block;
+}
+.company{
+  display: flex;
+  justify-content: center;
+  margin-bottom: -114px;
+  margin-top: -30px;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  margin-left: -45px;
+}
+.card2{
+  margin-left: -50px;
+}
+.card1,
+.card2{
+  width: 130px;
+  height: 195px;
+  position: relative;
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 30px;
+}
+
+header { 
+  padding: var(--spacing-company) 0;
+}
+
+header hgroup > :last-child {
+  color: var(--h3-color);
+}
+
+header hgroup {
+  margin-bottom: var(--spacing-company);
+}
+
+/* Nav */
+summary[role="link"].contrast:is([aria-current],:hover,:active,:focus) {
+  background-color: transparent;
+  color: var(--contrast-hover);
+}
+
+/* Main */
+@media (min-width: 992px) {
+  main .grid {
+    grid-column-gap: var(--spacing-company);
+    grid-template-columns: auto 25%;
+  }
+}
+
+form.grid {
+  grid-row-gap: 0;
+}
+
+/* Aside nav */
+aside img {
+  margin-bottom: 0.25rem;
+}
+
+aside p {
+  margin-bottom: var(--spacing-company);
+  line-height: 1.25;
+}
+
+
+.actionBtns{
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 40px;
+  align-items: center;
+}
+.actionBtns2{
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 40px;
+  align-items: center;
+  display: none;
+}
+.left2{
+  width: 50%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-radius: 40px ;
+  color: #4e86ad;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  color: #fff;
+}
+.right2{
+  width: 50%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-radius: 40px ;
+  color: #4e86ad;
+  font-weight: bold;
+  text-align: center;
+  color: #4e86ad;
+  position: relative;
+}
+
+#movela{
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  width: 50%;
+  height: 90%;
+  border: none;
+  outline: none;
+  border-radius: 80px;
+  background-color: #4e86ad;
+  margin-left: 3px;
+}
+#movela3{
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  width: 50%;
+  height: 90%;
+  border: none;
+  outline: none;
+  border-radius: 80px;
+  background-color: #4e86ad;
+  margin-left: 3px;
+}
+#movela2{
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  width: 50%;
+  height: 90%;
+  border: none;
+  outline: none;
+  border-radius: 80px;
+  background-color: #4e86ad;
+  margin-left: 50%;
+  left: -3px;
+  display: none;
+  transition: all 0.2s ease-in-out;
+}
+#movela4{
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  width: 50%;
+  height: 90%;
+  border: none;
+  outline: none;
+  border-radius: 80px;
+  background-color: #4e86ad;
+  margin-left: 50%;
+  left: -3px;
+  display: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.Recept{
+  width: 800px;
+  height: 50%;
+  align-items: center;
+  align-content: center;
+}
+#test3{
+  display: none;
+}
+
+@media only screen and (min-width: 1198px) {
+  .Recept{
+    margin-left: 180px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .MTR{
+    width: 119px ;
+    height: auto;
+  }
+  .center-text{
+    margin-left: -42px;
+  }
+}
