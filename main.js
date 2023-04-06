@@ -19,9 +19,9 @@ function right(){
     document.getElementById('movela4')
     .style.visibility="hidden"
     document.getElementById('changecolor')
-    .style.color="#4e86ad"
-    document.getElementById('changecolor2')
     .style.color="#fff"
+    document.getElementById('changecolor2')
+    .style.color="#4e86ad"
 }
       
 function left(){
