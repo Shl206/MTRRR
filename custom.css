@@ -223,6 +223,7 @@ aside p {
   height: 50%;
   align-items: center;
   align-content: center;
+  margin-top: 35px
 }
 #test3{
   display: none;
