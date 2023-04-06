@@ -18,6 +18,10 @@ function right(){
     .style.display="inline-block"
     document.getElementById('movela4')
     .style.visibility="hidden"
+    document.getElementById('changecolor')
+    .style.color="#4e86ad"
+    document.getElementById('changecolor2')
+    .style.color="#fff"
 }
       
 function left(){
@@ -41,6 +45,11 @@ function left(){
     .style.display="inline-block"
     document.getElementById('movela2')
     .style.visibility="hidden"
+    document.getElementById('changecolor2')
+    .style.color="#4e86ad"
+    document.getElementById('changecolor')
+    .style.color="#fff"
+
 }
 function right2(){
     document.getElementById('test1')
