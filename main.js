@@ -8,6 +8,16 @@ function right(){
     .style.display="none"
     document.getElementById('actionBtns2')
     .style.display="flex"
+    document.getElementById('test1')
+    .innerHTML="請拍下或上載收據，並請確保照片上能清晰顯示消費收據編號、商鋪地址、商戶名稱、交易日期、消費金額及購買項目資料。"
+    document.getElementById('test2')
+    .innerHTML="＊恕不接受遮蓋收據上的電子貨幣付款資料，如八達通或信用卡號碼。"
+    document.getElementById('pic')
+    .src="assets/Recept1.png"
+    document.getElementById('movela3')
+    .style.display="inline-block"
+    document.getElementById('movela4')
+    .style.visibility="hidden"
 }
       
 function left(){
@@ -19,6 +29,18 @@ function left(){
     .style.display="flex"
     document.getElementById('actionBtns2')
     .style.display="none"
+    document.getElementById('test1')
+    .innerHTML="請拍下或上載收據，並請確保照片上能清晰顯示消費收據編號、商鋪地址、商戶名稱、交易日期、消費金額及購買項目資料。"
+    document.getElementById('test2')
+    .innerHTML="＊恕不接受遮蓋收據上的電子貨幣付款資料，如八達通或信用卡號碼。"
+    document.getElementById('pic')
+    .src="assets/Recept1.png"
+    document.getElementById('test3')
+    .style.display="none"
+    document.getElementById('movela')
+    .style.display="inline-block"
+    document.getElementById('movela2')
+    .style.visibility="hidden"
 }
 function right2(){
     document.getElementById('test1')
@@ -30,7 +52,7 @@ function right2(){
     document.getElementById('test3')
     .style.display="none"
     document.getElementById('movela2')
-    .style.display="inline-block"
+    .style.visibility="visible"
     document.getElementById('movela')
     .style.display="none"
     document.getElementById('changecolor')
@@ -48,7 +70,7 @@ function left2(){
     document.getElementById('test3')
     .style.display="none"
     document.getElementById('movela2')
-    .style.display="none"
+    .style.visibility="hidden"
     document.getElementById('movela')
     .style.display="inline-block"
     document.getElementById('changecolor2')
@@ -59,7 +81,7 @@ function left2(){
 }
 function right3(){
     document.getElementById('movela4')
-    .style.display="inline-block"
+    .style.visibility="visible"
     document.getElementById('movela3')
     .style.display="none"
     document.getElementById('changecolor3')
@@ -85,7 +107,7 @@ function left3(){
     document.getElementById('test3')
     .style.display="none"
     document.getElementById('movela4')
-    .style.display="none"
+    .style.visibility="hidden"
     document.getElementById('movela3')
     .style.display="inline-block"
     document.getElementById('changecolor3')
