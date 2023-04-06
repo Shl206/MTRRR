@@ -8,10 +8,6 @@ function right(){
     .style.display="none"
     document.getElementById('actionBtns2')
     .style.display="flex"
-    document.getElementById('movela3')
-    .style.display="inline-block"
-    document.getElementById('movela4')
-    .style.visibility="hidden"
     document.getElementById('changecolor3')
     .style.color="#fff"
     document.getElementById('changecolor4')
@@ -22,6 +18,10 @@ function right(){
     .innerHTML="＊恕不接受遮蓋收據上的電子貨幣付款資料，如八達通或信用卡號碼。"
     document.getElementById('pic')
     .src="assets/Recept1.png"
+    document.getElementById('movela3')
+    .style.transform="translateX(0%)"
+    document.getElementById('movela3')
+    .style.transition="1s ease"
 }
       
 function left(){
@@ -41,15 +41,14 @@ function left(){
     .src="assets/Recept1.png"
     document.getElementById('test3')
     .style.display="none"
-    document.getElementById('movela')
-    .style.display="inline-block"
-    document.getElementById('movela2')
-    .style.visibility="hidden"
     document.getElementById('changecolor2')
     .style.color="#4e86ad"
     document.getElementById('changecolor')
     .style.color="#fff"
-
+    document.getElementById('movela')
+    .style.transform="translateX(0%)"
+    document.getElementById('movela')
+    .style.transition="1s ease"
 }
 function right2(){
     document.getElementById('test1')
@@ -60,15 +59,35 @@ function right2(){
     .src="assets/recept2.png"
     document.getElementById('test3')
     .style.display="none"
-    document.getElementById('movela2')
-    .style.visibility="visible"
     document.getElementById('movela')
-    .style.display="none"
+    .style.transform="translateX(95%)"
+    document.getElementById('movela')
+    .style.transition="1s ease"
     document.getElementById('changecolor')
     .style.color="#4e86ad"
     document.getElementById('changecolor2')
     .style.color="#fff"
+    if (window.innerWidth > 1200) {
+        document.getElementById('movela')
+        .style.transform="translateX(99%)"
+        document.getElementById('movela')
+        .style.transition="1s ease"
+    }
+    if (window.innerWidth > 449) {
+        document.getElementById('movela')
+        .style.transform="translateX(97%)"
+        document.getElementById('movela')
+        .style.transition="1s ease"
+    }
+    if (window.innerWidth > 768) {
+        document.getElementById('movela')
+        .style.transform="translateX(98%)"
+        document.getElementById('movela')
+        .style.transition="1s ease"
+    }
 }
+window.addEventListener('changesize', foo);
+
 function left2(){
     document.getElementById('test1')
     .innerHTML="請拍下或上載收據，並請確保照片上能清晰顯示消費收據編號、商鋪地址、商戶名稱、交易日期、消費金額及購買項目資料。"
@@ -78,10 +97,10 @@ function left2(){
     .src="assets/Recept1.png"
     document.getElementById('test3')
     .style.display="none"
-    document.getElementById('movela2')
-    .style.visibility="hidden"
     document.getElementById('movela')
-    .style.display="inline-block"
+    .style.transform="translateX(0%)"
+    document.getElementById('movela')
+    .style.transition="1s ease"
     document.getElementById('changecolor2')
     .style.color="#4e86ad"
     document.getElementById('changecolor')
@@ -89,10 +108,10 @@ function left2(){
 
 }
 function right3(){
-    document.getElementById('movela4')
-    .style.visibility="visible"
     document.getElementById('movela3')
-    .style.display="none"
+    .style.transform="translateX(95%)"
+    document.getElementById('movela3')
+    .style.transition="1s ease"
     document.getElementById('changecolor3')
     .style.color="#4e86ad"
     document.getElementById('changecolor4')
@@ -105,7 +124,27 @@ function right3(){
     .style.display="inline"
     document.getElementById('pic')
     .src="assets/recept3.png"
+    if (window.innerWidth > 1200) {
+        document.getElementById('movela3')
+        .style.transform="translateX(99%)"
+        document.getElementById('movela')
+        .style.transition="1s ease"
+    }
+    if (window.innerWidth > 449) {
+        document.getElementById('movela3')
+        .style.transform="translateX(97%)"
+        document.getElementById('movela')
+        .style.transition="1s ease"
+    }
+    if (window.innerWidth > 768) {
+        document.getElementById('movela3')
+        .style.transform="translateX(98%)"
+        document.getElementById('movela')
+        .style.transition="1s ease"
+    }
 }
+window.addEventListener('changesize2', foo);
+
 function left3(){
     document.getElementById('test1')
     .innerHTML="請拍下或上載收據，並請確保照片上能清晰顯示消費收據編號、商鋪地址、商戶名稱、交易日期、消費金額及購買項目資料。"
@@ -115,10 +154,10 @@ function left3(){
     .src="assets/Recept1.png"
     document.getElementById('test3')
     .style.display="none"
-    document.getElementById('movela4')
-    .style.visibility="hidden"
     document.getElementById('movela3')
-    .style.display="inline-block"
+    .style.transform="translateX(0%)"
+    document.getElementById('movela3')
+    .style.transition="1s ease"
     document.getElementById('changecolor3')
     .style.color="#fff"
     document.getElementById('changecolor4')

@@ -200,7 +200,6 @@ aside p {
   margin-left: 50%;
   left: -3px;
   visibility: hidden;
-  transition: all 0.2s ease-in-out;
 }
 #movela4{
   text-align: center;
@@ -215,7 +214,6 @@ aside p {
   margin-left: 50%;
   left: -3px;
   visibility: hidden;
-  transition: all 0.2s ease-in-out;
 }
 
 .Recept{
